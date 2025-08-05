@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.site-header{
+    width: 100%;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+}
+.h-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.h-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.h-menu{
+    flex-grow: 3;
+}
+.mitem{
+    list-style: none;
+}
+.m-link{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+.logo{
+    margin-right: 15px;;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.prewiu-product{
+    padding: 100px 0;
+    background: url(./images/preview.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.prew-title{
+    font-size: 30px;
+
+}
+.prew-discript, .prew-title{
+    text-align: center;
+    color: white;
+}
+.product-cont{
+    padding: 50px 0;
+}
+.products-title, .products-description{
+    text-align: center;
+    color: #262626;
+}
+.product{
+    padding: 25px;
+    margin-top: 45px;
+    width: 25%;
+    background: white;
+    border: 1px black solid;
+    text-align: center;
+    border-radius: 20px;
+}
+.product-link{
+    text-decoration: none;
+    color: black;
+}
+.product-bottom{
+    text-align: center;
+    background: #8193d8;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.products-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product-title, .product-text{
+    margin-bottom: 10px;
+}
+.site-footer{
+    background: url(images/footer.png);
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+.copyright{
+    color: white;
+}
+
+.footer-r {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.social-netw {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
